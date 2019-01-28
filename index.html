@@ -14,17 +14,24 @@
 
             <ul id="cafe-list"></ul>
 
+            
+
         </div>
+        <form id="add_data">
+            <input type="submit" placeholder="enter data" /> 
+            
+        </form>
+        <button id="btnDelete">Remove item</button>
 
         <script>
             // Initialize Firebase
             var config = {
-                apiKey: "AIzaSyBrItE-kYM4dU0kaft7WYjb3749lCv42uA",
-                authDomain: "ninja-firestore.firebaseapp.com",
-                databaseURL: "https://ninja-firestore.firebaseio.com",
-                projectId: "ninja-firestore",
-                storageBucket: "ninja-firestore.appspot.com",
-                messagingSenderId: "176079657618"
+                apiKey: "AIzaSyB0dJ6mdzF_oDoyA_V0nqM1S8cIYUv63y8",
+                authDomain: "test01-72087.firebaseapp.com",
+                databaseURL: "https://test01-72087.firebaseio.com",
+                projectId: "test01-72087",
+                storageBucket: "test01-72087.appspot.com",
+                messagingSenderId: "943420702604"
             };
             firebase.initializeApp(config);
             const db = firebase.firestore();
